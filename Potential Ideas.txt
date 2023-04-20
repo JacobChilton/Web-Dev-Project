@@ -1,0 +1,13 @@
+squadrons:
+community,
+tournaments,
+history,
+bugs,
+why it died,
+what its like now,
+
+star wars games:
+history/timeline,
+cancelled games,
+what worked/didnt.
+
