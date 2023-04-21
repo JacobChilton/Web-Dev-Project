@@ -1,3 +1,9 @@
+Theme 1:
+
+Theme 2:
+
+Theme 3:
+
 squadrons:
 community,
 tournaments,
@@ -11,3 +17,4 @@ history/timeline,
 cancelled games,
 what worked/didnt.
 
+Theme 4:
