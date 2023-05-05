@@ -1,0 +1,14 @@
+
+.navtop ul{ /*styles nav bar colour, text colour, alignment and sizes */
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+.navtop li{
+    display: inline-block;
+    margin-inline-start: 50px;
+}

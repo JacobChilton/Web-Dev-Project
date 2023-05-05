@@ -17,4 +17,8 @@ history/timeline,
 cancelled games,
 what worked/didnt.
 
+loadout generation - ship and loadout/option to select ship
+tips/mechanics
+story
+
 Theme 4:
