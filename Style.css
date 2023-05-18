@@ -1,4 +1,13 @@
+html{
+    scroll-behavior:smooth
+}
 
+
+.Logo-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .navtop ul{ /*styles nav bar colour, text colour, alignment and sizes */
     list-style-type: none;
     margin: 0;
