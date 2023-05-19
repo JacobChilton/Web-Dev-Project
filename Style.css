@@ -2,6 +2,13 @@ html{
     scroll-behavior:smooth
 }
 
+main{
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+}
 
 .Logo-Container{
     display: flex;
@@ -20,4 +27,52 @@ html{
 .navtop li{
     display: inline-block;
     margin-inline-start: 50px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+li:last-child:nth-child(3n - 1) {
+    /*grid-column-end: -1;*/
+    grid-column-end: span 2;
+}
+
+li{
+    list-style-type: none;
+}
+
+li>a{
+    text-decoration: none;
+}
+
+.nebTs{
+
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.dFire{
+
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.tbTips{
+
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
 }
