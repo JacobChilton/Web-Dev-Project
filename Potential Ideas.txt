@@ -22,3 +22,78 @@ tips/mechanics
 story
 
 Theme 4:
+
+
+Squadrons Component list:
+
+Lasers:
+Laser Cannon
+Rotary Cannon
+Burst Cannon
+Rapid Fire Cannon
+Plasburst Cannon
+Auto-Aim Cannon
+Guided Rotary Cannon
+Guided Quad-Cannon
+
+Aux:
+Ion Cannon
+Concussion Missile
+Turret Mine
+Seeker Mine
+Quick-Lock Missile
+Goliath Missile
+Rockets
+Ion Missile
+Ion Torpedo
+Multi-Lock Missile
+Cluster Missile
+Proton Torpedo
+Proton Bomb
+Ion Bomb
+Automatic Ion Cannon
+Beam Cannon
+Baradium Torpedo
+Repair Droid
+Repair System
+Tractor Beam
+Assault Shield
+Mimic Beacon
+Tactical Shield
+Targeting Jammer
+Targeting Beacons
+Supply Droid
+Squadron Mask
+
+Countermeasure:
+Seeker Warheads
+Chaff Particles
+Sensor Jammer
+Sensor Inverter
+
+Hull:
+Ferroceramic Hull (The trailer had a typo on this one)
+Reinforced Hull
+Light Hull
+Laminasteel Hull
+Dampener Hull
+Deflector Hull
+Reflec Hull
+
+Shield:
+Deflector Shield
+Resonant Shield
+Nimble Deflector
+Fortified Deflector
+Ray Shield
+Scrambler Shield
+Conversion Shield
+Overloaded Shield
+
+Engine:
+Sublight Engine
+Propulsion Engine
+Thrust Engine
+Microthrust Engine
+Ion Jet Engine
+Slam Engine

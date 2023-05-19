@@ -48,8 +48,6 @@ li>a{
 }
 
 .nebTs{
-
-
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -58,8 +56,6 @@ li>a{
 }
 
 .dFire{
-
-
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -68,8 +64,6 @@ li>a{
 }
 
 .tbTips{
-
-
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
