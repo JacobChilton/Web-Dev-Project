@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Auto-Aim Cannon.png",
+    "path": "Squadrons Components/NewRepublic/U-Wing/Cannons/Auto-Aim Cannon.png",
+    "sha": "dbeb1fce839dfc494b84af056a0a1fad3faddab9",
+    "size": 12873,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Auto-Aim%20Cannon.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Auto-Aim%20Cannon.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/dbeb1fce839dfc494b84af056a0a1fad3faddab9",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Auto-Aim%20Cannon.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Auto-Aim%20Cannon.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/dbeb1fce839dfc494b84af056a0a1fad3faddab9",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Auto-Aim%20Cannon.png"
+    }
+  },
+  {
+    "name": "Ion Cannon.png",
+    "path": "Squadrons Components/NewRepublic/U-Wing/Cannons/Ion Cannon.png",
+    "sha": "97c0c5a0c493a8781121726ba15b67e177eeedf7",
+    "size": 14958,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Ion%20Cannon.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Ion%20Cannon.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/97c0c5a0c493a8781121726ba15b67e177eeedf7",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Ion%20Cannon.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Ion%20Cannon.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/97c0c5a0c493a8781121726ba15b67e177eeedf7",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Ion%20Cannon.png"
+    }
+  },
+  {
+    "name": "Standard Lasers.png",
+    "path": "Squadrons Components/NewRepublic/U-Wing/Cannons/Standard Lasers.png",
+    "sha": "4fcabbc683aecb1d3a44e0913924e8cb408e9828",
+    "size": 15130,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Standard%20Lasers.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Standard%20Lasers.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/4fcabbc683aecb1d3a44e0913924e8cb408e9828",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Standard%20Lasers.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Standard%20Lasers.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/4fcabbc683aecb1d3a44e0913924e8cb408e9828",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Cannons/Standard%20Lasers.png"
+    }
+  }
+]

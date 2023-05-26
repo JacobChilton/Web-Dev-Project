@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Deflector Shield.png",
+    "path": "Squadrons Components/NewRepublic/U-Wing/Shields/Deflector Shield.png",
+    "sha": "cb4db5166c5779589fc6a141d35bb0b5e65ace0c",
+    "size": 12086,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Deflector%20Shield.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Deflector%20Shield.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/cb4db5166c5779589fc6a141d35bb0b5e65ace0c",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Deflector%20Shield.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Deflector%20Shield.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/cb4db5166c5779589fc6a141d35bb0b5e65ace0c",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Deflector%20Shield.png"
+    }
+  },
+  {
+    "name": "Fortified Deflector.png",
+    "path": "Squadrons Components/NewRepublic/U-Wing/Shields/Fortified Deflector.png",
+    "sha": "bb94557193e54bc783ee832921f2895168338a94",
+    "size": 10803,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Fortified%20Deflector.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Fortified%20Deflector.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/bb94557193e54bc783ee832921f2895168338a94",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Fortified%20Deflector.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Fortified%20Deflector.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/bb94557193e54bc783ee832921f2895168338a94",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Fortified%20Deflector.png"
+    }
+  },
+  {
+    "name": "Resonant Shield.png",
+    "path": "Squadrons Components/NewRepublic/U-Wing/Shields/Resonant Shield.png",
+    "sha": "58e977b22bf30e3a75d6133fd3104869d0e7ff89",
+    "size": 12333,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Resonant%20Shield.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Resonant%20Shield.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/58e977b22bf30e3a75d6133fd3104869d0e7ff89",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Resonant%20Shield.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Resonant%20Shield.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/58e977b22bf30e3a75d6133fd3104869d0e7ff89",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Resonant%20Shield.png"
+    }
+  },
+  {
+    "name": "Scrambler Shield.png",
+    "path": "Squadrons Components/NewRepublic/U-Wing/Shields/Scrambler Shield.png",
+    "sha": "d50fb0c33918e2897538bf78df0bd92304a34dea",
+    "size": 12749,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Scrambler%20Shield.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Scrambler%20Shield.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/d50fb0c33918e2897538bf78df0bd92304a34dea",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Scrambler%20Shield.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/U-Wing/Shields/Scrambler%20Shield.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/d50fb0c33918e2897538bf78df0bd92304a34dea",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/NewRepublic/U-Wing/Shields/Scrambler%20Shield.png"
+    }
+  }
+]
