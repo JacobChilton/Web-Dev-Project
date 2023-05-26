@@ -1,5 +1,5 @@
 let dataSet = {}
-/*
+
 async function fetchData(url, outputTo){
     return fetch(url)
         .then(response => response.json())
@@ -298,49 +298,49 @@ Save json file into the data folder, name the json file the same as the array eg
 Update the FetchData URL to the Json file - eg /data/TieBomberCannons.json
 
 */
-/*
+
 fetchData('/data/EmpireData.json','empireShip');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Cannons?ref=main','TieBomberCannons');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Auxes?ref=main','TieBomberAuxes');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Countermeasures?ref=main','TieBomberCountermeasures');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Hull?ref=main','TieBomberHull');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Engines?ref=main','TieBomberEngine');
+fetchData('/data/TieBomberCannons.json','TieBomberCannons');
+fetchData('/data/TieBomberAuxes.json','TieBomberAuxes');
+fetchData('/data/TieBomberCountermeasures.json','TieBomberCountermeasures');
+fetchData('/data/TieBomberHull.json','TieBomberHull');
+fetchData('/data/TieBomberEngines.json','TieBomberEngine');
 
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEFighter/Cannons?ref=main','TIEFighterCannons');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEFighter/Auxes?ref=main','TIEFighterAuxes');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEFighter/Countermeasures?ref=main','TIEFighterCountermeasures');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEFighter/Hull?ref=main','TIEFighterHull');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEFighter/Engines?ref=main','TIEFighterEngine');
+fetchData('/data/TieFighterCannons.json','TIEFighterCannons');
+fetchData('/data/TieFighterAuxes.json','TIEFighterAuxes');
+fetchData('/data/TieFighterCountermeasures.json','TIEFighterCountermeasures');
+fetchData('/data/TieFighterHull.json','TIEFighterHull');
+fetchData('/data/TieFighterEngines.json','TIEFighterEngine');
 
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEInterceptor/Cannons?ref=main','TIEInterceptorCannons');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEInterceptor/Auxes?ref=main','TIEInterceptorAuxes');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEInterceptor/Countermeasures?ref=main','TIEInterceptorCountermeasures');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEInterceptor/Hull?ref=main','TIEInterceptorHull');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEInterceptor/Engines?ref=main','TIEInterceptorEngine');
+fetchData('/data/TieInterceptorCannons.json','TIEInterceptorCannons');
+fetchData('/data/TieInterceptorAuxes.json','TIEInterceptorAuxes');
+fetchData('/data/TieInterceptorCountermeasures.json','TIEInterceptorCountermeasures');
+fetchData('/data/TieInterceptorHull.json','TIEInterceptorHull');
+fetchData('/data/TieInterceptorEngines.json','TIEInterceptorEngine');
 
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Cannons?ref=main','TIEDefenderCannons');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Auxes?ref=main','TIEDefenderAuxes');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Countermeasures?ref=main','TIEDefenderCountermeasures');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Hull?ref=main','TIEDefenderHull');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields?ref=main','TIEDefenderShields');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Engines?ref=main','TIEDefenderEngine');
+fetchData('/data/TieDefenderCannons.json','TIEDefenderCannons');
+fetchData('/data/TieDefenderAuxes.json','TIEDefenderAuxes');
+fetchData('/data/TieDefenderCountermeasures.json','TIEDefenderCountermeasures');
+fetchData('/data/TieDefenderHull.json','TIEDefenderHull');
+fetchData('/data/TieDefenderSHields.json','TIEDefenderShields');
+fetchData('/data/TieDefenderEngines.json','TIEDefenderEngine');
 
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEReaper/Cannons?ref=main','TIEReaperCannons');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEReaper/Auxes?ref=main','TIEReaperAuxes');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEReaper/Countermeasures?ref=main','TIEReaperCountermeasures');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEReaper/Hull?ref=main','TIEReaperHull');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEReaper/Shields?ref=main','TIEReaperShields');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEReaper/Engines?ref=main','TIEReaperEngine');
+fetchData('/data/TieReaperCannons.json','TIEReaperCannons');
+fetchData('/data/TieReaperAuxes.json','TIEReaperAuxes');
+fetchData('/data/TieReaperCountermeasures.json','TIEReaperCountermeasures');
+fetchData('/data/TieReaperHull.json','TIEReaperHull');
+fetchData('/data/TieReaperShields.json','TIEReaperShields');
+fetchData('/data/TieReaperEngines.json','TIEReaperEngine');
 
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic?ref=main','republicShip');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/X-Wing/Cannons?ref=main','XWingCannons');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/X-Wing/Auxes?ref=main','XWingAuxes');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/X-Wing/Countermeasures?ref=main','XWingCountermeasures');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/X-Wing/Hull?ref=main','XWingHull');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/X-Wing/Shields?ref=main','XWingShields');
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/X-Wing/Engines?ref=main','XWingEngine');
+fetchData('/data/RepublicData.json','republicShip');
+fetchData('/data/xWingCannons.json','XWingCannons');
+fetchData('/data/xWing.Auxesjson','XWingAuxes');
+fetchData('/data/xWingCountermeasures.json','XWingCountermeasures');
+fetchData('/data/xWingHull.json','XWingHull');
+fetchData('/data/xWingShields.json','XWingShields');
+fetchData('/data/xWingEngine.json','XWingEngine');
 
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/Y-Wing/Cannons?ref=main','YWingCannons');
+fetchData('/data/yWingCannons','YWingCannons');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/Y-Wing/Auxes?ref=main','YWingAuxes');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/Y-Wing/Countermeasures?ref=main','YWingCountermeasures');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/Y-Wing/Hull?ref=main','YWingHull');
@@ -367,4 +367,3 @@ fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Sq
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/B-Wing/Hull?ref=main','BWingHull');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/B-Wing/Shields?ref=main','BWingShields');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/B-Wing/Engines?ref=main','BWingEngine');
-*/

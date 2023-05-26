@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Deflector Shield.png",
+    "path": "Squadrons Components/Empire/TIEDefender/Shields/Deflector Shield.png",
+    "sha": "cb4db5166c5779589fc6a141d35bb0b5e65ace0c",
+    "size": 12086,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Deflector%20Shield.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Deflector%20Shield.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/cb4db5166c5779589fc6a141d35bb0b5e65ace0c",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/Empire/TIEDefender/Shields/Deflector%20Shield.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Deflector%20Shield.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/cb4db5166c5779589fc6a141d35bb0b5e65ace0c",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Deflector%20Shield.png"
+    }
+  },
+  {
+    "name": "Fortified Deflector.png",
+    "path": "Squadrons Components/Empire/TIEDefender/Shields/Fortified Deflector.png",
+    "sha": "bb94557193e54bc783ee832921f2895168338a94",
+    "size": 10803,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Fortified%20Deflector.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Fortified%20Deflector.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/bb94557193e54bc783ee832921f2895168338a94",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/Empire/TIEDefender/Shields/Fortified%20Deflector.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Fortified%20Deflector.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/bb94557193e54bc783ee832921f2895168338a94",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Fortified%20Deflector.png"
+    }
+  },
+  {
+    "name": "Nimble Deflector.png",
+    "path": "Squadrons Components/Empire/TIEDefender/Shields/Nimble Deflector.png",
+    "sha": "52ee7d46a6e16dc9aa74dab550ab628392b7e0a2",
+    "size": 12212,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Nimble%20Deflector.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Nimble%20Deflector.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/52ee7d46a6e16dc9aa74dab550ab628392b7e0a2",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/Empire/TIEDefender/Shields/Nimble%20Deflector.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Nimble%20Deflector.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/52ee7d46a6e16dc9aa74dab550ab628392b7e0a2",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Nimble%20Deflector.png"
+    }
+  },
+  {
+    "name": "Ray Shield.png",
+    "path": "Squadrons Components/Empire/TIEDefender/Shields/Ray Shield.png",
+    "sha": "9d2fbf7b4edc8d2afea7e3aa59204c1b764548cf",
+    "size": 12687,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Ray%20Shield.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Ray%20Shield.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/9d2fbf7b4edc8d2afea7e3aa59204c1b764548cf",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/Empire/TIEDefender/Shields/Ray%20Shield.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Ray%20Shield.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/9d2fbf7b4edc8d2afea7e3aa59204c1b764548cf",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Ray%20Shield.png"
+    }
+  },
+  {
+    "name": "Scrambler Shield.png",
+    "path": "Squadrons Components/Empire/TIEDefender/Shields/Scrambler Shield.png",
+    "sha": "d50fb0c33918e2897538bf78df0bd92304a34dea",
+    "size": 12749,
+    "url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Scrambler%20Shield.png?ref=main",
+    "html_url": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Scrambler%20Shield.png",
+    "git_url": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/d50fb0c33918e2897538bf78df0bd92304a34dea",
+    "download_url": "https://raw.githubusercontent.com/JacobChilton/Web-Dev-Project/main/Squadrons%20Components/Empire/TIEDefender/Shields/Scrambler%20Shield.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEDefender/Shields/Scrambler%20Shield.png?ref=main",
+      "git": "https://api.github.com/repos/JacobChilton/Web-Dev-Project/git/blobs/d50fb0c33918e2897538bf78df0bd92304a34dea",
+      "html": "https://github.com/JacobChilton/Web-Dev-Project/blob/main/Squadrons%20Components/Empire/TIEDefender/Shields/Scrambler%20Shield.png"
+    }
+  }
+]
