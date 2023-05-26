@@ -22,7 +22,7 @@ function RandomFromArrayExclude(input, exclude){
     return RandomFromArray(updatedInput)
 }
 
-
+/*
 function GenEmpire(){
     console.log("gen empire")
     let selectedShip = RandomFromArray(dataSet.empireShip)
@@ -286,7 +286,20 @@ function GenRebublic(){
 }
 
 
-fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire?ref=main','empireShip');
+//fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire?ref=main','empireShip');
+
+// TODO
+
+/*
+
+Ctrl Click on each link to open in browser
+Right Click on page in browser then Save AS
+Save json file into the data folder, name the json file the same as the array eg TieBomberCannons.json
+Update the FetchData URL to the Json file - eg /data/TieBomberCannons.json
+
+*/
+/*
+fetchData('/data/EmpireData.json','empireShip');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Cannons?ref=main','TieBomberCannons');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Auxes?ref=main','TieBomberAuxes');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/Empire/TIEBomber/Countermeasures?ref=main','TieBomberCountermeasures');
@@ -354,3 +367,4 @@ fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Sq
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/B-Wing/Hull?ref=main','BWingHull');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/B-Wing/Shields?ref=main','BWingShields');
 fetchData('https://api.github.com/repos/JacobChilton/Web-Dev-Project/contents/Squadrons%20Components/NewRepublic/B-Wing/Engines?ref=main','BWingEngine');
+*/
