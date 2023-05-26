@@ -1,5 +1,5 @@
 let dataSet = {}
-
+/*
 async function fetchData(url, outputTo){
     return fetch(url)
         .then(response => response.json())
@@ -22,7 +22,7 @@ function RandomFromArrayExclude(input, exclude){
     return RandomFromArray(updatedInput)
 }
 
-/*
+
 function GenEmpire(){
     console.log("gen empire")
     let selectedShip = RandomFromArray(dataSet.empireShip)
