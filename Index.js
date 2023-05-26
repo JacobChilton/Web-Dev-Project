@@ -96,6 +96,7 @@ function GenEmpire(){
         let selectedHull = RandomFromArray(dataSet.TIEInterceptorHull)
         document.getElementById("hull").src = '/'+selectedHull.path;
 
+        
         let selectedEngine = RandomFromArray(dataSet.TIEInterceptorEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
