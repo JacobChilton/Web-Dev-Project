@@ -33,22 +33,22 @@ function GenEmpire(){
 
     if(selectedShip.name == 'TIEBomber'){
 
-        let selectedCannons = RandomFromArray(dataSet.TieBomberCannons)
+        let selectedCannons = RandomFromArray(dataSet.TIEBomberCannons)
         document.getElementById("cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.TieBomberAuxes)
+        let selectedAux = RandomFromArray(dataSet.TIEBomberAuxes)
         document.getElementById("aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.TieBomberAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.TIEBomberAuxes,selectedAux)
         document.getElementById("aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.TieBomberCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.TIEBomberCountermeasures)
         document.getElementById("countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.TieBomberHull)
+        let selectedHull = RandomFromArray(dataSet.TIEBomberHull)
         document.getElementById("hull").src = '/'+selectedHull.path;
 
-        let selectedEngine = RandomFromArray(dataSet.TieBomberEngine)
+        let selectedEngine = RandomFromArray(dataSet.TIEBomberEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
         document.getElementById("shields").style.display = "none"
@@ -157,7 +157,7 @@ function GenEmpire(){
 
 function GenRebublic(){
     console.log("gen Republic")
-    let selectedShip = RandomFromArray(dataSet.RepublicShip)
+    let selectedShip = RandomFromArray(dataSet.republicShip)
     document.getElementById("shields").style.display = "block"
 
     console.log(selectedShip)
@@ -300,11 +300,11 @@ Update the FetchData URL to the Json file - eg /data/TieBomberCannons.json
 */
 
 fetchData('/data/EmpireData.json','empireShip');
-fetchData('/data/TieBomberCannons.json','TieBomberCannons');
-fetchData('/data/TieBomberAuxes.json','TieBomberAuxes');
-fetchData('/data/TieBomberCountermeasures.json','TieBomberCountermeasures');
-fetchData('/data/TieBomberHull.json','TieBomberHull');
-fetchData('/data/TieBomberEngines.json','TieBomberEngine');
+fetchData('/data/TieBomberCannons.json','TIEBomberCannons');
+fetchData('/data/TieBomberAuxes.json','TIEBomberAuxes');
+fetchData('/data/TieBomberCountermeasures.json','TIEBomberCountermeasures');
+fetchData('/data/TieBomberHull.json','TIEBomberHull');
+fetchData('/data/TieBomberEngines.json','TIEBomberEngine');
 
 fetchData('/data/TieFighterCannons.json','TIEFighterCannons');
 fetchData('/data/TieFighterAuxes.json','TIEFighterAuxes');

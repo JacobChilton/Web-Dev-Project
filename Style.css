@@ -136,53 +136,117 @@ h2{
     font-size: xx-large;
 }
 
-#empireShip{
-width:400px;
+.emp {
+    float: left;
+}
 
+.nr {
+    float: right;
+}
+
+#republicShip{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#empireShip{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 30%;
 }
 #cannons{
-    
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
-#aux1{
-    
-}
-#aux2{
-    
-}
-#countermeasures{
 
+.container{
+    padding-left:40%;
+    padding-right: 40%;
+}
+
+#aux1{
+    width: 20%;
+    float: left;
+}
+
+#aux2{
+    width: 20%;
+    float: right;
+}
+
+#countermeasures{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
 #hull{
-
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
 #shields{
-
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
 #engines{
-
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
+
 
 #republicShip{
 width:400px;
 }
-#Cannons{
-    
-}
-#Aux1{
-    
-}
-#Aux2{
-    
-}
-#Countermeasures{
 
+#Cannons{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
+}
+
+#Aux1{
+    width: 20%;
+    float: left;
+}
+
+#Aux2{
+    width: 20%;
+    float: right;
+}
+
+#Countermeasures{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
 #Hull{
-
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
 #Shields{
-
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
 #Engines{
-
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5%;
 }
