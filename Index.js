@@ -33,22 +33,22 @@ function GenEmpire(){
 
     if(selectedShip.name == 'TIEBomber'){
 
-        let selectedCannons = RandomFromArray(dataSet.TIEBomberCannons)
+        let selectedCannons = RandomFromArray(dataSet.TieBomberCannons)
         document.getElementById("cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.TIEBomberAuxes)
+        let selectedAux = RandomFromArray(dataSet.TieBomberAuxes)
         document.getElementById("aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.TIEBomberAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.TieBomberAuxes,selectedAux)
         document.getElementById("aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.TIEBomberCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.TieBomberCountermeasures)
         document.getElementById("countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.TIEBomberHull)
+        let selectedHull = RandomFromArray(dataSet.TieBomberHull)
         document.getElementById("hull").src = '/'+selectedHull.path;
 
-        let selectedEngine = RandomFromArray(dataSet.TIEBomberEngine)
+        let selectedEngine = RandomFromArray(dataSet.TieBomberEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
         document.getElementById("shields").style.display = "none"
@@ -57,22 +57,22 @@ function GenEmpire(){
 
     if(selectedShip.name == 'TIEFighter'){
 
-        let selectedCannons = RandomFromArray(dataSet.TIEFighterCannons)
+        let selectedCannons = RandomFromArray(dataSet.TieFighterCannons)
         document.getElementById("cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.TIEFighterAuxes)
+        let selectedAux = RandomFromArray(dataSet.TieFighterAuxes)
         document.getElementById("aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.TIEFighterAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.TieFighterAuxes,selectedAux)
         document.getElementById("aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.TIEFighterCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.TieFighterCountermeasures)
         document.getElementById("countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.TIEFighterHull)
+        let selectedHull = RandomFromArray(dataSet.TieFighterHull)
         document.getElementById("hull").src = '/'+selectedHull.path;
 
-        let selectedEngine = RandomFromArray(dataSet.TIEFighterEngine)
+        let selectedEngine = RandomFromArray(dataSet.TieFighterEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
         document.getElementById("shields").style.display = "none"
@@ -81,23 +81,22 @@ function GenEmpire(){
 
     if(selectedShip.name == 'TIEInterceptor'){
 
-        let selectedCannons = RandomFromArray(dataSet.TIEInterceptorCannons)
+        let selectedCannons = RandomFromArray(dataSet.TieInterceptorCannons)
         document.getElementById("cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.TIEInterceptorAuxes)
+        let selectedAux = RandomFromArray(dataSet.TieInterceptorAuxes)
         document.getElementById("aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.TIEInterceptorAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.TieInterceptorAuxes,selectedAux)
         document.getElementById("aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.TIEInterceptorCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.TieInterceptorCountermeasures)
         document.getElementById("countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.TIEInterceptorHull)
+        let selectedHull = RandomFromArray(dataSet.TieInterceptorHull)
         document.getElementById("hull").src = '/'+selectedHull.path;
-
         
-        let selectedEngine = RandomFromArray(dataSet.TIEInterceptorEngine)
+        let selectedEngine = RandomFromArray(dataSet.TieInterceptorEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
         document.getElementById("shields").style.display = "none"
@@ -106,50 +105,50 @@ function GenEmpire(){
 
     if(selectedShip.name == 'TIEDefender'){
 
-        let selectedCannons = RandomFromArray(dataSet.TIEDefenderCannons)
+        let selectedCannons = RandomFromArray(dataSet.TieDefenderCannons)
         document.getElementById("cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.TIEDefenderAuxes)
+        let selectedAux = RandomFromArray(dataSet.TieDefenderAuxes)
         document.getElementById("aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.TIEDefenderAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.TieDefenderAuxes,selectedAux)
         document.getElementById("aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.TIEDefenderCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.TieDefenderCountermeasures)
         document.getElementById("countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.TIEDefenderHull)
+        let selectedHull = RandomFromArray(dataSet.TieDefenderHull)
         document.getElementById("hull").src = '/'+selectedHull.path;
 
-        let selectedShields = RandomFromArray(dataSet.TIEDefenderShields)
+        let selectedShields = RandomFromArray(dataSet.TieDefenderShields)
         document.getElementById("shields").src = '/'+selectedShields.path;
 
-        let selectedEngine = RandomFromArray(dataSet.TIEDefenderEngine)
+        let selectedEngine = RandomFromArray(dataSet.TieDefenderEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
     }
 
     if(selectedShip.name == 'TIEReaper'){
 
-        let selectedCannons = RandomFromArray(dataSet.TIEReaperCannons)
+        let selectedCannons = RandomFromArray(dataSet.TieReaperCannons)
         document.getElementById("cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.TIEReaperAuxes)
+        let selectedAux = RandomFromArray(dataSet.TieReaperAuxes)
         document.getElementById("aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.TIEReaperAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.TieReaperAuxes,selectedAux)
         document.getElementById("aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.TIEReaperCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.TieReaperCountermeasures)
         document.getElementById("countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.TIEReaperHull)
+        let selectedHull = RandomFromArray(dataSet.TieReaperHull)
         document.getElementById("hull").src = '/'+selectedHull.path;
 
-        let selectedShields = RandomFromArray(dataSet.TIEReaperShields)
+        let selectedShields = RandomFromArray(dataSet.TieReaperShields)
         document.getElementById("shields").src = '/'+selectedShields.path;
 
-        let selectedEngine = RandomFromArray(dataSet.TIEReaperEngine)
+        let selectedEngine = RandomFromArray(dataSet.TieReaperEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
     }
@@ -166,121 +165,121 @@ function GenRebublic(){
 
     if(selectedShip.name == 'X-Wing'){
     
-        let selectedCannons = RandomFromArray(dataSet.XWingCannons)
+        let selectedCannons = RandomFromArray(dataSet.xWingCannons)
         document.getElementById("Cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.XWingAuxes)
+        let selectedAux = RandomFromArray(dataSet.xWingAuxes)
         document.getElementById("Aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.XWingAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.xWingAuxes,selectedAux)
         document.getElementById("Aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.XWingCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.xWingCountermeasures)
         document.getElementById("Countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.XWingHull)
+        let selectedHull = RandomFromArray(dataSet.xWingHull)
         document.getElementById("Hull").src = '/'+selectedHull.path;
 
-        let selectedShields = RandomFromArray(dataSet.XWingShields)
+        let selectedShields = RandomFromArray(dataSet.xWingShields)
         document.getElementById("Shields").src = '/'+selectedShields.path;
 
-        let selectedEngine = RandomFromArray(dataSet.XWingEngine)
+        let selectedEngine = RandomFromArray(dataSet.xWingEngine)
         document.getElementById("Engines").src = '/'+selectedEngine.path;
     }
 
     if(selectedShip.name == 'Y-Wing'){
     
-        let selectedCannons = RandomFromArray(dataSet.YWingCannons)
+        let selectedCannons = RandomFromArray(dataSet.yWingCannons)
         document.getElementById("Cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.YWingAuxes)
+        let selectedAux = RandomFromArray(dataSet.yWingAuxes)
         document.getElementById("Aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.YWingAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.yWingAuxes,selectedAux)
         document.getElementById("Aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.YWingCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.yWingCountermeasures)
         document.getElementById("Countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.YWingHull)
+        let selectedHull = RandomFromArray(dataSet.yWingHull)
         document.getElementById("Hull").src = '/'+selectedHull.path;
 
-        let selectedShields = RandomFromArray(dataSet.YWingShields)
+        let selectedShields = RandomFromArray(dataSet.yWingShields)
         document.getElementById("Shields").src = '/'+selectedShields.path;
 
-        let selectedEngine = RandomFromArray(dataSet.YWingEngine)
+        let selectedEngine = RandomFromArray(dataSet.yWingEngine)
         document.getElementById("Engines").src = '/'+selectedEngine.path;
     }
 
     if(selectedShip.name == 'A-Wing'){
     
-        let selectedCannons = RandomFromArray(dataSet.AWingCannons)
+        let selectedCannons = RandomFromArray(dataSet.aWingCannons)
         document.getElementById("Cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.AWingAuxes)
+        let selectedAux = RandomFromArray(dataSet.aWingAuxes)
         document.getElementById("Aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.AWingAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.aWingAuxes,selectedAux)
         document.getElementById("Aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.AWingCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.aWingCountermeasures)
         document.getElementById("Countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.AWingHull)
+        let selectedHull = RandomFromArray(dataSet.aWingHull)
         document.getElementById("Hull").src = '/'+selectedHull.path;
 
-        let selectedShields = RandomFromArray(dataSet.AWingShields)
+        let selectedShields = RandomFromArray(dataSet.aWingShields)
         document.getElementById("Shields").src = '/'+selectedShields.path;
 
-        let selectedEngine = RandomFromArray(dataSet.AWingEngine)
+        let selectedEngine = RandomFromArray(dataSet.aWingEngine)
         document.getElementById("Engines").src = '/'+selectedEngine.path;
     }
 
     if(selectedShip.name == 'U-Wing'){
     
-        let selectedCannons = RandomFromArray(dataSet.UWingCannons)
+        let selectedCannons = RandomFromArray(dataSet.uWingCannons)
         document.getElementById("Cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.UWingAuxes)
+        let selectedAux = RandomFromArray(dataSet.uWingAuxes)
         document.getElementById("Aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.UWingAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.uWingAuxes,selectedAux)
         document.getElementById("Aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.UWingCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.uWingCountermeasures)
         document.getElementById("Countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.UWingHull)
+        let selectedHull = RandomFromArray(dataSet.uWingHull)
         document.getElementById("Hull").src = '/'+selectedHull.path;
 
-        let selectedShields = RandomFromArray(dataSet.UWingShields)
+        let selectedShields = RandomFromArray(dataSet.uWingShields)
         document.getElementById("Shields").src = '/'+selectedShields.path;
 
-        let selectedEngine = RandomFromArray(dataSet.UWingEngine)
+        let selectedEngine = RandomFromArray(dataSet.uWingEngine)
         document.getElementById("Engines").src = '/'+selectedEngine.path;
     }
 
-    if(selectedShip.name == 'A-Wing'){
+    if(selectedShip.name == 'B-Wing'){
     
-        let selectedCannons = RandomFromArray(dataSet.BWingCannons)
+        let selectedCannons = RandomFromArray(dataSet.bWingCannons)
         document.getElementById("Cannons").src = '/'+selectedCannons.path;
 
-        let selectedAux = RandomFromArray(dataSet.BWingAuxes)
+        let selectedAux = RandomFromArray(dataSet.bWingAuxes)
         document.getElementById("Aux1").src = '/'+selectedAux.path;
 
-        let selectedAux2 = RandomFromArrayExclude(dataSet.BWingAuxes,selectedAux)
+        let selectedAux2 = RandomFromArrayExclude(dataSet.bWingAuxes,selectedAux)
         document.getElementById("Aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.BWingCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.bWingCountermeasures)
         document.getElementById("Countermeasures").src = '/'+selectedCountermeasures.path;
 
-        let selectedHull = RandomFromArray(dataSet.BWingHull)
+        let selectedHull = RandomFromArray(dataSet.bWingHull)
         document.getElementById("Hull").src = '/'+selectedHull.path;
 
-        let selectedShields = RandomFromArray(dataSet.BWingShields)
+        let selectedShields = RandomFromArray(dataSet.bWingShields)
         document.getElementById("Shields").src = '/'+selectedShields.path;
 
-        let selectedEngine = RandomFromArray(dataSet.BWingEngine)
+        let selectedEngine = RandomFromArray(dataSet.bWingEngine)
         document.getElementById("Engines").src = '/'+selectedEngine.path;
     }
 
@@ -301,70 +300,70 @@ Update the FetchData URL to the Json file - eg /data/TieBomberCannons.json
 */
 
 fetchData('/data/EmpireData.json','empireShip');
-fetchData('/data/TieBomberCannons.json','TIEBomberCannons');
-fetchData('/data/TieBomberAuxes.json','TIEBomberAuxes');
-fetchData('/data/TieBomberCountermeasures.json','TIEBomberCountermeasures');
-fetchData('/data/TieBomberHull.json','TIEBomberHull');
-fetchData('/data/TieBomberEngines.json','TIEBomberEngine');
+fetchData('/data/TieBomberCannons.json','TieBomberCannons');
+fetchData('/data/TieBomberAuxes.json','TieBomberAuxes');
+fetchData('/data/TieBomberCountermeasures.json','TieBomberCountermeasures');
+fetchData('/data/TieBomberHull.json','TieBomberHull');
+fetchData('/data/TieBomberEngines.json','TieBomberEngine');
 
-fetchData('/data/TieFighterCannons.json','TIEFighterCannons');
-fetchData('/data/TieFighterAuxes.json','TIEFighterAuxes');
-fetchData('/data/TieFighterCountermeasures.json','TIEFighterCountermeasures');
-fetchData('/data/TieFighterHull.json','TIEFighterHull');
-fetchData('/data/TieFighterEngines.json','TIEFighterEngine');
+fetchData('/data/TieFighterCannons.json','TieFighterCannons');
+fetchData('/data/TieFighterAuxes.json','TieFighterAuxes');
+fetchData('/data/TieFighterCountermeasures.json','TieFighterCountermeasures');
+fetchData('/data/TieFighterHull.json','TieFighterHull');
+fetchData('/data/TieFighterEngines.json','TieFighterEngine');
 
-fetchData('/data/TieInterceptorCannons.json','TIEInterceptorCannons');
-fetchData('/data/TieInterceptorAuxes.json','TIEInterceptorAuxes');
-fetchData('/data/TieInterceptorCountermeasures.json','TIEInterceptorCountermeasures');
-fetchData('/data/TieInterceptorHull.json','TIEInterceptorHull');
-fetchData('/data/TieInterceptorEngines.json','TIEInterceptorEngine');
+fetchData('/data/TieInterceptorCannons.json','TieInterceptorCannons');
+fetchData('/data/TieInterceptorAuxes.json','TieInterceptorAuxes');
+fetchData('/data/TieInterceptorCountermeasures.json','TieInterceptorCountermeasures');
+fetchData('/data/TieInterceptorHull.json','TieInterceptorHull');
+fetchData('/data/TieInterceptorEngines','TieInterceptorEngine');
 
-fetchData('/data/TieDefenderCannons.json','TIEDefenderCannons');
-fetchData('/data/TieDefenderAuxes.json','TIEDefenderAuxes');
-fetchData('/data/TieDefenderCountermeasures.json','TIEDefenderCountermeasures');
-fetchData('/data/TieDefenderHull.json','TIEDefenderHull');
-fetchData('/data/TieDefenderSHields.json','TIEDefenderShields');
-fetchData('/data/TieDefenderEngines.json','TIEDefenderEngine');
+fetchData('/data/TieDefenderCannons.json','TieDefenderCannons');
+fetchData('/data/TieDefenderAuxes.json','TieDefenderAuxes');
+fetchData('/data/TieDefenderCountermeasures.json','TieDefenderCountermeasures');
+fetchData('/data/TieDefenderHull.json','TieDefenderHull');
+fetchData('/data/TieDefenderSHields.json','TieDefenderShields');
+fetchData('/data/TieDefenderEngines.json','TieDefenderEngine');
 
-fetchData('/data/TieReaperCannons.json','TIEReaperCannons');
-fetchData('/data/TieReaperAuxes.json','TIEReaperAuxes');
-fetchData('/data/TieReaperCountermeasures.json','TIEReaperCountermeasures');
-fetchData('/data/TieReaperHull.json','TIEReaperHull');
-fetchData('/data/TieReaperShields.json','TIEReaperShields');
-fetchData('/data/TieReaperEngines.json','TIEReaperEngine');
+fetchData('/data/TieReaperCannons.json','TieReaperCannons');
+fetchData('/data/TieReaperAuxes.json','TieReaperAuxes');
+fetchData('/data/TieReaperCountermeasures.json','TieReaperCountermeasures');
+fetchData('/data/TieReaperHull.json','TieReaperHull');
+fetchData('/data/TieReaperShields.json','TieReaperShields');
+fetchData('/data/TieReaperEngines.json','TieReaperEngine');
 
 fetchData('/data/RepublicData.json','republicShip');
-fetchData('/data/xWingCannons.json','XWingCannons');
-fetchData('/data/xWing.Auxesjson','XWingAuxes');
-fetchData('/data/xWingCountermeasures.json','XWingCountermeasures');
-fetchData('/data/xWingHull.json','XWingHull');
-fetchData('/data/xWingShields.json','XWingShields');
-fetchData('/data/xWingEngine.json','XWingEngine');
+fetchData('/data/xWingCannons.json','xWingCannons');
+fetchData('/data/xWing.Auxesjson','xWingAuxes');
+fetchData('/data/xWingCountermeasures.json','xWingCountermeasures');
+fetchData('/data/xWingHull.json','xWingHull');
+fetchData('/data/xWingShields.json','xWingShields');
+fetchData('/data/xWingEngine.json','xWingEngine');
 
-fetchData('/data/yWingCannons.json','YWingCannons');
-fetchData('/data/yWingAuxes.json','YWingAuxes');
-fetchData('/data/yWingCountermeasures.json','YWingCountermeasures');
-fetchData('/data/yWingHull.json','YWingHull');
-fetchData('/data/yWingShields.json','YWingShields');
-fetchData('/data/yWingEngines.json','YWingEngine');
+fetchData('/data/yWingCannons.json','yWingCannons');
+fetchData('/data/yWingAuxes.json','yWingAuxes');
+fetchData('/data/yWingCountermeasures.json','yWingCountermeasures');
+fetchData('/data/yWingHull.json','yWingHull');
+fetchData('/data/yWingShields.json','yWingShields');
+fetchData('/data/yWingEngines.json','yWingEngine');
 
-fetchData('/data/aWingCannons.json','AWingCannons');
-fetchData('/data/aWingAuxes.json','AWingAuxes');
-fetchData('/data/aWingCountermeasures.json','AWingCountermeasures');
-fetchData('/data/aWingHull.json','AWingHull');
-fetchData('/data/aWingShields.json','AWingShields');
-fetchData('/data/aWingEngines.json','AWingEngine');
+fetchData('/data/aWingCannons.json','aWingCannons');
+fetchData('/data/aWingAuxes.json','aWingAuxes');
+fetchData('/data/aWingCountermeasures.json','aWingCountermeasures');
+fetchData('/data/aWingHull.json','aWingHull');
+fetchData('/data/aWingShields.json','aWingShields');
+fetchData('/data/aWingEngines.json','aWingEngine');
 
-fetchData('/data/uWingCannons.json','UWingCannons');
-fetchData('/data/uWingAuxes.json','UWingAuxes');
-fetchData('/data/uWingCountermeasures.json','UWingCountermeasures');
-fetchData('/data/uWingHull.json','UWingHull');
-fetchData('/data/uWingShields.json','UWingShields');
-fetchData('/data/uWingEngines.json','UWingEngine');
+fetchData('/data/uWingCannons.json','uWingCannons');
+fetchData('/data/uWingAuxes.json','uWingAuxes');
+fetchData('/data/uWingCountermeasures.json','uWingCountermeasures');
+fetchData('/data/uWingHull.json','uWingHull');
+fetchData('/data/uWingShields.json','uWingShields');
+fetchData('/data/uWingEngines.json','uWingEngine');
 
-fetchData('/data/bWingCannons.json','BWingCannons');
-fetchData('/data/bWingAuxes.json','BWingAuxes');
-fetchData('/data/bWingCountermeasures.json','BWingCountermeasures');
-fetchData('/data/bWingHull.json','BWingHull');
-fetchData('/data/bWingShields.json','BWingShields');
-fetchData('/data/bWingEngines.json','BWingEngine');
+fetchData('/data/bWingCannons.json','bWingCannons');
+fetchData('/data/bWingAuxes.json','bWingAuxes');
+fetchData('/data/bWingCountermeasures.json','bWingCountermeasures');
+fetchData('/data/bWingHull.json','bWingHull');
+fetchData('/data/bWingShields.json','bWingShields');
+fetchData('/data/bWingEngines.json','bWingEngine');

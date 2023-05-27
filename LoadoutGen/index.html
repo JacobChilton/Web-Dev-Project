@@ -20,38 +20,60 @@
         </ul>
     </nav>
 
-    <main>
-        <!--<aside class="emp">-->
-            <button onclick="GenEmpire()">Gen Empire</button>
-            <h2>Your Empire Ship</h2>
-            <img id="empireShip" src="/do" alt="empireShip" ><br>
-            <img id="cannons" src="/do" alt="cannons"><br>
-            <div class="container">
-                <img id="aux1" src="/do" alt="aux1">
-                <img id="aux2" src="/do" alt="aux2"><br><br><br>
-            </div>
-            <img id="countermeasures" src="/do" alt="countermeasures"><br>
-            <img id="hull" src="/do" alt="hull">
-            <img id="shields" src="/do" alt="shields"><br>
-            <img id="engines" src="/do" alt="engines">
+    <main class="loadoutMain">
         
-        <!--<aside class="nr">-->
+        <div class="loadoutGrid">
             <br>
-            <button onclick="GenRebublic()">Gen Republic</button>
-            <h2>Your New Republic Ship</h2>
-            <img id="republicShip" src="/do" alt="republicShip" ><br>
-            <img id="Cannons" src="/do" alt="cannons"><br>
+            <button class="empGenerate" onclick="GenEmpire()"><b>Gen Empire</b></button>
+            <h2 class="eGenTxt">Your Empire Ship:</h2>
+            <img id="empireShip" src="/do.png" alt="empireShip" >
+            <img id="cannons" src="/do.png" alt="cannons">
             <div class="container">
-                <img id="Aux1" src="/do" alt="aux1">
-                <img id="Aux2" src="/do" alt="aux2"><br><br><br>
+                <img id="aux1" src="/do.png" alt="aux1">
+                <img id="aux2" src="/do.png" alt="aux2"><br>
             </div>
-            <img id="Countermeasures" src="/do" alt="countermeasures"><br>
-            <img id="Hull" src="/do" alt="hull">
-            <img id="Shields" src="/do" alt="shields"><br>
-            <img id="Engines" src="/do" alt="engines">
+            <img id="countermeasures" src="/do.png" alt="countermeasures">
+            <img id="hull" src="/do.png" alt="hull">
+            <img id="shields" src="/do.png" alt="shields">
+            <img id="engines" src="/do.png" alt="engines">
+        </div>
+        
+        <div class="loadoutGrid">
+            <br>
+            <button class="nrGenerate" onclick="GenRebublic()"><b>Gen Republic</b></button>
+            <h2 class="nrGenTxt">Your New Republic Ship:</h2>
+            <img id="republicShip" src="/do2.png" alt="republicShip" >
+            <img id="Cannons" src="/do2.png" alt="cannons">
+            <div class="container">
+                <img id="Aux1" src="/do2.png" alt="aux1">
+                <img id="Aux2" src="/do2.png" alt="aux2"><br>
+            </div>
+            <img id="Countermeasures" src="/do2.png" alt="countermeasures">
+            <img id="Hull" src="/do2.png" alt="hull">
+            <img id="Shields" src="/do2.png" alt="shields">
+            <img id="Engines" src="/do2.png" alt="engines">
+        </div>
         
     </main>
 
 </body>
+
+<footer>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <nav class="navtop"> <!--creates nav bar with links to each section of site-->
+        <ul>
+            
+        </ul>
+    </nav>
+</footer>
 
 </html>
