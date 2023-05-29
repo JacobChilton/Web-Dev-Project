@@ -315,7 +315,7 @@ fetchData('/data/TieInterceptorCannons.json','TieInterceptorCannons');
 fetchData('/data/TieInterceptorAuxes.json','TieInterceptorAuxes');
 fetchData('/data/TieInterceptorCountermeasures.json','TieInterceptorCountermeasures');
 fetchData('/data/TieInterceptorHull.json','TieInterceptorHull');
-fetchData('/data/TieInterceptorEngines','TieInterceptorEngine');
+fetchData('/data/TieInterceptorEngines.json','TieInterceptorEngine');
 
 fetchData('/data/TieDefenderCannons.json','TieDefenderCannons');
 fetchData('/data/TieDefenderAuxes.json','TieDefenderAuxes');
@@ -333,11 +333,11 @@ fetchData('/data/TieReaperEngines.json','TieReaperEngine');
 
 fetchData('/data/RepublicData.json','republicShip');
 fetchData('/data/xWingCannons.json','xWingCannons');
-fetchData('/data/xWing.Auxesjson','xWingAuxes');
+fetchData('/data/xWing.Auxes.json','xWingAuxes');
 fetchData('/data/xWingCountermeasures.json','xWingCountermeasures');
 fetchData('/data/xWingHull.json','xWingHull');
 fetchData('/data/xWingShields.json','xWingShields');
-fetchData('/data/xWingEngine.json','xWingEngine');
+fetchData('/data/xWingEngines.json','xWingEngine');
 
 fetchData('/data/yWingCannons.json','yWingCannons');
 fetchData('/data/yWingAuxes.json','yWingAuxes');
