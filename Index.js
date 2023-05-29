@@ -173,7 +173,7 @@ function GenRebublic(){ //function to generate random images for each ship and c
         let selectedAux2 = RandomFromArrayExclude(dataSet.xWingAuxes,selectedAux)
         document.getElementById("Aux2").src = '/'+selectedAux2.path;
 
-        let selectedCountermeasures = RandomFromArray(dataSet.xWingCountermeasures)
+        let selectedCountermeasures = RandomFromArray(dataSet.yWingCountermeasures)
         document.getElementById("Countermeasures").src = '/'+selectedCountermeasures.path;
 
         let selectedHull = RandomFromArray(dataSet.xWingHull)
@@ -333,7 +333,7 @@ fetchData('/data/TieReaperEngines.json','TieReaperEngine');
 
 fetchData('/data/RepublicData.json','republicShip');
 fetchData('/data/xWingCannons.json','xWingCannons');
-fetchData('/data/xWing.Auxes.json','xWingAuxes');
+fetchData('/data/xWingAuxes.json','xWingAuxes');
 fetchData('/data/xWingCountermeasures.json','xWingCountermeasures');
 fetchData('/data/xWingHull.json','xWingHull');
 fetchData('/data/xWingShields.json','xWingShields');
