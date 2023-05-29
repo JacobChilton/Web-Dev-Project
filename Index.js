@@ -1,7 +1,7 @@
-let dataSet = {}
+let dataSet = {} //creates empty dataset array
 
-async function fetchData(url, outputTo){
-    return fetch(url)
+async function fetchData(url, outputTo){ //creates function with two inpputs to be sent in. Fetches the database sent in and returns the data back to the main function it was called from.
+    return fetch(url) 
         .then(response => response.json())
         .then(data => {
             console.log(data)
@@ -10,11 +10,11 @@ async function fetchData(url, outputTo){
         })
 }
 
-function RandomFromArray(input){
+function RandomFromArray(input){ //chooses random image from dataset chosen
     return input[Math.floor(Math.random() * input.length)]
 }
 
-function RandomFromArrayExclude(input, exclude){
+function RandomFromArrayExclude(input, exclude){ //chooses random image from dataset except for one previously chosen
     //let index = input.indexOf(exclude)
     let updatedInput = input.filter(item => item != exclude)
     console.log(updatedInput)
@@ -23,15 +23,15 @@ function RandomFromArrayExclude(input, exclude){
 }
 
 
-function GenEmpire(){
+function GenEmpire(){ //function to generate random images for each ship and component on the Empire faction
     console.log("gen empire")
-    let selectedShip = RandomFromArray(dataSet.empireShip)
-    document.getElementById("shields").style.display = "block"
+    let selectedShip = RandomFromArray(dataSet.empireShip) //calls function which chooses a ship at random
+    document.getElementById("shields").style.display = "block" //blocks shields from being shown entirely whilst a ship without them available is being shown
 
     console.log(selectedShip)
-    document.getElementById("empireShip").src = `/Squadrons Components/Empire/${selectedShip.name}/ship.jpg`
+    document.getElementById("empireShip").src = `/Squadrons Components/Empire/${selectedShip.name}/ship.jpg` //finds source image for selected ship
 
-    if(selectedShip.name == 'TIEBomber'){
+    if(selectedShip.name == 'TIEBomber'){ //searches dataset for selected ship's available components
 
         let selectedCannons = RandomFromArray(dataSet.TieBomberCannons)
         document.getElementById("cannons").src = '/'+selectedCannons.path;
@@ -51,7 +51,7 @@ function GenEmpire(){
         let selectedEngine = RandomFromArray(dataSet.TieBomberEngine)
         document.getElementById("engines").src = '/'+selectedEngine.path;
 
-        document.getElementById("shields").style.display = "none"
+        document.getElementById("shields").style.display = "none" //ensures shields do not display
 
     }
 
@@ -155,15 +155,14 @@ function GenEmpire(){
 
 }
 
-function GenRebublic(){
+function GenRebublic(){ //function to generate random images for each ship and component on the Republic faction
     console.log("gen Republic")
     let selectedShip = RandomFromArray(dataSet.republicShip)
-    document.getElementById("shields").style.display = "block"
 
     console.log(selectedShip)
     document.getElementById("republicShip").src = `/Squadrons Components/NewRepublic/${selectedShip.name}/ship.jpg`
 
-    if(selectedShip.name == 'X-Wing'){
+    if(selectedShip.name == 'X-Wing'){ //searches dataset for selected ship's available components
     
         let selectedCannons = RandomFromArray(dataSet.xWingCannons)
         document.getElementById("Cannons").src = '/'+selectedCannons.path;
@@ -299,8 +298,8 @@ Update the FetchData URL to the Json file - eg /data/TieBomberCannons.json
 
 */
 
-fetchData('/data/EmpireData.json','empireShip');
-fetchData('/data/TieBomberCannons.json','TieBomberCannons');
+fetchData('/data/EmpireData.json','empireShip'); //searches the local database for EmpireData.json which fetches data from github of where files are stored locally and returns in variable
+fetchData('/data/TieBomberCannons.json','TieBomberCannons'); //searches local database for component pathways and returns in variable
 fetchData('/data/TieBomberAuxes.json','TieBomberAuxes');
 fetchData('/data/TieBomberCountermeasures.json','TieBomberCountermeasures');
 fetchData('/data/TieBomberHull.json','TieBomberHull');

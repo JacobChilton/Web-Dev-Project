@@ -2,10 +2,11 @@
 
 <html lang="eng">
 
-<head>
+<head><!--Linking CSS and JavaSipt pages-->
     <link rel="stylesheet" href="/Style.css" type="text/css" >
     <script defer rel="Index" src="/Index.js" type="text/JavaScript" > </script>
-    <title>Star Wars Squadrons - Loadout Generator</title>
+    <title>Star Wars Squadrons - Loadout Generator</title><!--Setting title of page-->
+</head>
 </head>
 
 <body>
@@ -20,15 +21,15 @@
         </ul>
     </nav>
 
-    <main class="loadoutMain">
+    <main class="loadoutMain"> <!--Class for everything in the Loadout Generator-->
         
-        <div class="loadoutGrid">
+        <div class="loadoutGrid"> <!--Adds both Faction generators to seperate divs named the same to make two seperate grids with the same styling-->
             <br>
-            <button class="empGenerate" onclick="GenEmpire()"><b>Gen Empire</b></button>
+            <button class="empGenerate" onclick="GenEmpire()"><b>Gen Empire</b></button> <!--Creates button which when pressed calls the "GenEmpire()" function in JS-->
             <h2 class="eGenTxt">Your Empire Ship:</h2>
-            <img id="empireShip" src="/do.png" alt="empireShip" >
+            <img id="empireShip" src="/do.png" alt="empireShip" > <!--Sets ID so JS can target the correct image to change, sets default image to a colourd question mark based on faction-->
             <img id="cannons" src="/do.png" alt="cannons">
-            <div class="container">
+            <div class="container"> <!--Adds Auxes to the same container so they can be shown side by side-->
                 <img id="aux1" src="/do.png" alt="aux1">
                 <img id="aux2" src="/do.png" alt="aux2"><br>
             </div>
@@ -40,7 +41,7 @@
         
         <div class="loadoutGrid">
             <br>
-            <button class="nrGenerate" onclick="GenRebublic()"><b>Gen Republic</b></button>
+            <button class="nrGenerate" onclick="GenRebublic()"><b>Gen Republic</b></button> <!--Creates button which when pressed calls the "GenRepublic()" function in JS-->
             <h2 class="nrGenTxt">Your New Republic Ship:</h2>
             <img id="republicShip" src="/do2.png" alt="republicShip" >
             <img id="Cannons" src="/do2.png" alt="cannons">
@@ -59,6 +60,7 @@
 </body>
 
 <footer>
+<br><!--creates space between generator and nav bar-->
 <br>
 <br>
 <br>
@@ -68,8 +70,7 @@
 <br>
 <br>
 <br>
-<br>
-    <nav class="navtop"> <!--creates nav bar with links to each section of site-->
+    <nav class="navtop"> <!--creates nav bar at the bottom of site with nothing in-->
         <ul>
             
         </ul>

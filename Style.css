@@ -2,21 +2,21 @@ html{
     scroll-behavior:smooth
 }
 body{
-    background-color: grey
+    background-color: grey /*Sets background colour*/
 }
 
 main{
-    font-size: large;
+    font-size: large; /*sets default font size and margin*/
     margin-left: 50px
 }
 
 h1{
-    text-align: center;
+    text-align: center; /*sets size and position of each H1 tag*/
     font-size: xx-large;
 }
 
 .Logo-Container{
-    display: flex;
+    display: flex; /*styles the Main Squadrons logo on each page*/
     flex-direction: row;
     justify-content: space-around;
 }
@@ -36,22 +36,22 @@ h1{
     width:10%;
 }
 
-.grid {
+.grid { /*styles each grid*/
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
 
-li{
+li{ /*ensures lists do not display bullet points, sets sizes*/
     list-style-type: none;
     width: 574px;
 }
 
-li>a{
+li>a{ /*removes underline from links in a list*/
     text-decoration: none;
 }
 
-.nebTs{
+.nebTs{ /*styles grid for TheFlyingChilly youtube links*/
     /*display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -69,7 +69,7 @@ li>a{
     text-align: center;
 }
 
-.dFire{
+.dFire{ /*styles grid for Quinntessence youtube links*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,7 +77,7 @@ li>a{
     justify-content: center;
 }
 
-.tbTips{
+.tbTips{ /*styles grid for TimeBombTips youtube links*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,11 +85,11 @@ li>a{
     justify-content: center;
 }
 
-li > a > img{
+li > a > img{ /*Styles images within links - Eg youtube thumbnails*/
     width: 100%;
 }
 
-.Right{
+.Right{ /*Styles class right in home page*/
     margin-right: 10rem;
     display: flex;
     flex-direction: row;
@@ -98,7 +98,7 @@ li > a > img{
     margin-left: 50rem;
 }
 
-.Left{
+.Left{ /*Styles class left in home page*/
     margin-left: 10rem;
     display: flex;
     padding: 25px;
@@ -108,25 +108,27 @@ li > a > img{
     margin-right: 50rem;
 }
 
-.fighterTextR{
+.fighterTextR{ /*Styles Republic fighter text in home page*/
     padding-left: 10px;
     font-size: x-large;
     color: rgb(179, 10, 10);
 }
-.fighterTextE{
+
+.fighterTextE{ /*Styles Empire fighter text in home page*/
     padding-left: 10px;
     font-size: x-large;
     color: rgb(2, 0, 155);
 }
 
-.Left img{
+.Left img{ /*Styles Left Images in home page*/
    float: left;
 }
-.Right img{
-float: right;
+
+.Right img{ /*Styles Right Images in home page*/
+    float: right;
 }
 
-@media screen and (max-width:1900px) {
+@media screen and (max-width:1900px) { /*styles each section on home page in flex box using media screen*/
     .Left{
         display: flex;
         margin-left: 30px;
@@ -139,43 +141,35 @@ float: right;
     }
 }
 
-.shipDescriptions img{
+.shipDescriptions img{ /*styles images in Home page*/
     width: 400px;
 }
 
-h2{
+h2{ /*size and padding of all H2 Tags*/
     padding-left: 8.5%;
     font-size: xx-large;
 }
 
-.emp {
-    float: left;
-}
-
-.nr {
-    float: right;
-}
-
-.loadoutMain{
+.loadoutMain{ /*Sets grid format for Both faction Loadout Generators*/
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 
-.empGenerate{
+.empGenerate{ /*Styles font colour and button style/size for empire generate button*/
     color: rgb(2, 0, 155);
     margin-left: 45%;
     margin-right: 45%;
     border-radius: 10%;
 }
 
-.nrGenerate{
+.nrGenerate{ /*Styles font colour and button style/size for Republic generate button*/
     color: rgb(179, 10, 10);
     margin-left: 45%;
     margin-right: 45%;
     border-radius: 10%;
 }
 
-.eGenTxt{
+.eGenTxt{ /*Styles font colour and placement for subheadings above generator*/
     color: rgb(2, 0, 155);
     text-align: center;
 }
@@ -185,6 +179,7 @@ h2{
     text-align: center;
 }
 
+/*Styles each image size and position in loadout generator*/
 
 #republicShip{
     display: block;
@@ -319,7 +314,7 @@ h2{
     padding-bottom: 5px;
 }
 
-.officialSite{
+.officialSite{ /*styles positioning of official site link*/
     text-align: center;
     margin-left: 42%;
     margin-right: 38%;
