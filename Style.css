@@ -13,6 +13,14 @@ main{
 h1{
     text-align: center; /*sets size and position of each H1 tag*/
     font-size: xx-large;
+    color: rgb(179, 10, 10);
+}
+
+#about{ /*Sets font colour, size and position of about section*/
+    color: rgb(2, 0, 155);
+    padding-left: 10%;
+    padding-right:10%;
+    font-size: x-large;
 }
 
 .Logo-Container{
@@ -146,8 +154,15 @@ li > a > img{ /*Styles images within links - Eg youtube thumbnails*/
 }
 
 h2{ /*size and padding of all H2 Tags*/
+    padding-left: 1%;
+    font-size: xx-large;
+    color: rgb(2, 0, 155);
+}
+
+h4{ /*size and padding of all H4 Tags*/
     padding-left: 8.5%;
     font-size: xx-large;
+    color: rgb(179, 10, 10);
 }
 
 .loadoutMain{ /*Sets grid format for Both faction Loadout Generators*/
