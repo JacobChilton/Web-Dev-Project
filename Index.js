@@ -1,6 +1,6 @@
 let dataSet = {} //creates empty dataset array
 
-async function fetchData(url, outputTo){ //creates function with two inpputs to be sent in. Fetches the database sent in and returns the data back to the main function it was called from.
+async function fetchData(url, outputTo){ //creates function with two inputs to be sent in. Fetches the database sent in and returns the data back to the main function it was called from.
     return fetch(url) 
         .then(response => response.json())
         .then(data => {
